@@ -29,5 +29,8 @@ html, body {
     .background-image {
         background-size: contain; /* Ajusta la imagen para que se vea completa */
         background-position: top center; /* Justifica la imagen al borde superior y centra horizontalmente */
+        height: auto; /* Ajusta la altura del contenedor según el contenido */
+        min-height: 100vh; /* Asegura que el contenedor tenga al menos la altura de la ventana */
     }
-}
+    }
+
