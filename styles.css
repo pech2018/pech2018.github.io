@@ -11,11 +11,11 @@ html, body {
 
 .background-image {
     background-image: url('fondo.jpg'); 
-    background-size: cover; /
+    background-size: contain; /
     background-position: center; 
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     height: 100vh; /* Hace que el contenedor ocupe el 100% de la altura de la ventana */
-    width: 100vh; /* Asegura que el contenedor ocupe el 100% del ancho de la ventana */
+    width: 100vw; /* Asegura que el contenedor ocupe el 100% del ancho de la ventana */
     display: flex; /* Usa flexbox para centrar el contenido */
     align-items: center; /* Centra verticalmente el contenido */
     justify-content: center; /* Centra horizontalmente el contenido */
