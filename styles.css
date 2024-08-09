@@ -26,7 +26,7 @@ html, body {
 
 @media (max-width: 768px) {
     .background-image {
-        background-size: contain; /* Ajusta la imagen para que se vea completa */
+        background-size: cover; /* Ajusta la imagen para que se vea completa */
         background-position: center center;
         }
     }
