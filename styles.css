@@ -1,14 +1,25 @@
-body {
-  background-image: url('fondo.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin: 0;
-  padding: 0;
-  height: 100vh;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-img {
-  max-width: 100%;
-  max-height: 100%;
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.background-image {
+    background-image: url('fondo.jpg'); 
+    background-size: cover; /
+    background-position: center; 
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; /* Hace que el contenedor ocupe el 100% de la altura de la ventana */
+    width: 100vw; /* Asegura que el contenedor ocupe el 100% del ancho de la ventana */
+    display: flex; /* Usa flexbox para centrar el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    color: white; /* Cambia el color del texto si es necesario */
+    text-align: center; /* Centra el texto */
+    overflow: hidden; /* Oculta cualquier contenido que se desborde */
 }
