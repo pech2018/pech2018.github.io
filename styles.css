@@ -27,7 +27,8 @@ html, body {
 @media (max-width: 768px) {
     .background-image {
         background-size: cover; /* Ajusta la imagen para que se vea completa */
-        background-position: center;background-repeat: no-repeat; /* Evita que la imagen se repita */
+        background-position: top center;
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
         height: 100vh; /* Hace que el contenedor ocupe el 100% de la altura de la ventana */
         display: flex; /* Usa flexbox para centrar el contenido */
         align-items: center; /* Centra verticalmente el contenido */
