@@ -12,7 +12,7 @@ html, body {
 .background-image {
     background-image: url('fondo.jpg'); 
     background-size: contain; /
-    background-position: center; 
+    background-position: top center; 
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     height: 100vh; /* Hace que el contenedor ocupe el 100% de la altura de la ventana */
     width: 100vw; /* Asegura que el contenedor ocupe el 100% del ancho de la ventana */
@@ -28,14 +28,6 @@ html, body {
     .background-image {
         background-size: cover; /* Ajusta la imagen para que se vea completa */
         background-position: top center;
-        background-repeat: no-repeat; /* Evita que la imagen se repita */
-        height: 100vh; /* Hace que el contenedor ocupe el 100% de la altura de la ventana */
-        display: flex; /* Usa flexbox para centrar el contenido */
-        align-items: center; /* Centra verticalmente el contenido */
-        justify-content: center; /* Centra horizontalmente el contenido */
-        color: white; /* Cambia el color del texto si es necesario */
-        text-align: center; /* Centra el texto */
-        overflow: hidden; /* Oculta cualquier contenido que se desborde */
-        
+               
         }
     }
