@@ -22,4 +22,11 @@ html, body {
     color: white; /* Cambia el color del texto si es necesario */
     text-align: center; /* Centra el texto */
     overflow: hidden; /* Oculta cualquier contenido que se desborde */
-}
+    }
+
+@media (max-width: 768px) {
+    .background-image {
+        background-size: contain; /* Ajusta la imagen para que se vea completa */
+        background-position: center center;
+        }
+    }
